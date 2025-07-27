@@ -1,0 +1,32 @@
+name: Update Brewfile
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC (adjust as needed)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Allows you to manually trigger the workflow from the GitHub Actions tab
+
+jobs:
+  update-brewfile:
+    runs-on: macos-latest # macOS is required for Homebrew
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@master # Action to set up Homebrew
+
+      - name: Run brew bundle dump
+        run: |
+          brew bundle dump --force
+
+      - name: Commit Brewfile changes
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add Brewfile
+          git diff --quiet --exit-code || git commit -m "Auto-update Brewfile"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
