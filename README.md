@@ -2,7 +2,6 @@
 
 ![Built with Homebrew](https://img.shields.io/badge/Built%20with-Homebrew-blue?style=flat-square&logo=homebrew&logoColor=white)
 ![Managed with Brew Bundle](https://img.shields.io/badge/Managed%20with-Brew%20Bundle-orange?style=flat-square&logo=homebrew&logoColor=white)
-![Workflow Status](https://github.com/KnowOneActual/Homebrew_Brewfile/actions/workflows/YOUR_WORKFLOW_FILE_NAME.yml/badge.svg)
 
 This repository helps me keep my Homebrew package installations backed up and easily reproducible across different machines or after fresh macOS installations. It uses `brew bundle` to manage my Homebrew formulae, casks, and even Mac App Store applications.
 
