@@ -51,7 +51,7 @@ cd [YOUR_REPOSITORY_NAME]
 Finally, run `brew bundle` to install everything listed in your `Brewfile`:
 
 ```bash
-brew bundle
+brew bundle install
 ```
 
 This command will read your `Brewfile` and automatically install all the listed taps, formulae, casks, and Mac App Store applications, getting your development environment ready quickly.
