@@ -12,6 +12,7 @@ brew "aspell"
 brew "openssl@3"
 brew "python@3.12"
 brew "avrdude"
+brew "python@3.13"
 brew "azure-cli"
 brew "babl"
 brew "bat"
@@ -24,10 +25,10 @@ brew "btop"
 brew "emacs"
 brew "cask"
 brew "icu4c@76"
-brew "python@3.13"
 brew "cherrytree"
 brew "cmatrix"
 brew "cpufetch"
+brew "curl"
 brew "ddgr"
 brew "duck"
 brew "entr"
@@ -46,7 +47,10 @@ brew "fortune"
 brew "fzf"
 brew "pygobject3"
 brew "gedit"
+brew "node"
+brew "gemini-cli"
 brew "gh"
+brew "ghostscript"
 brew "git"
 brew "git-filter-repo"
 brew "git-gui"
@@ -64,7 +68,6 @@ brew "links"
 brew "lolcat"
 brew "lsd"
 brew "lynx"
-brew "node"
 brew "markdownlint-cli"
 brew "mas"
 brew "masscan"
@@ -75,12 +78,14 @@ brew "mpc"
 brew "ncdu"
 brew "neovim"
 brew "networkit"
+brew "nikto"
 brew "pandoc"
 brew "parallel"
 brew "pg_partman"
 brew "pinentry-mac"
 brew "putty"
 brew "pyqt@5"
+brew "python-tk@3.13"
 brew "python@3.9"
 brew "qt"
 brew "rclone"
@@ -89,7 +94,6 @@ brew "rmlint"
 brew "rustscan"
 brew "screen"
 brew "silk"
-brew "speedtest-cli"
 brew "task"
 brew "telnet"
 brew "termcolor"
@@ -101,6 +105,7 @@ brew "universal-ctags"
 brew "virtualenv"
 brew "watch"
 brew "wget"
+brew "whois"
 brew "wireshark"
 brew "yt-dlp"
 brew "zoxide"
@@ -110,6 +115,7 @@ brew "contrastsecurity/tap/contrast"
 brew "teamookla/speedtest/speedtest"
 cask "blackhole-2ch"
 cask "chromedriver"
+cask "gcloud-cli"
 cask "gimp"
 cask "hex-fiend"
 cask "inkscape"
@@ -125,12 +131,11 @@ mas "Antivirus Zap - Virus Scanner", id: 1212019923
 mas "Audio Converter Pro", id: 698196505
 mas "Bitwarden", id: 1352778147
 mas "BlueHarvest", id: 739483376
-mas "BlueMail", id: 1458754578
-mas "Canary Mail", id: 1236045954
 mas "CocoaPacketAnalyzer", id: 418357707
 mas "Cog", id: 1630499622
 mas "Color Picker", id: 1545870783
 mas "Compressor", id: 424390742
+mas "CotEditor", id: 1024640650
 mas "Dashword", id: 1553096775
 mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "eDrawings", id: 1209754386
@@ -143,7 +148,6 @@ mas "InfoCard", id: 1110195348
 mas "IP Scanner Ultra", id: 404167677
 mas "Jump Desktop", id: 524141863
 mas "Keynote", id: 409183694
-mas "Kira for Google Keep", id: 1488575973
 mas "koala", id: 1479881366
 mas "LanguageTool", id: 1534275760
 mas "LanScan", id: 472226235
@@ -160,7 +164,6 @@ mas "RForAll", id: 1626370380
 mas "shootShifter", id: 521567274
 mas "SketchBook", id: 863486266
 mas "Slack", id: 803453959
-mas "Spark", id: 1176895641
 mas "Speedtest", id: 1153157709
 mas "SubnetCalc", id: 412946682
 mas "Telegram", id: 747648890
@@ -194,5 +197,6 @@ vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "redhat.java"
 vscode "redhat.vscode-xml"
 vscode "redhat.vscode-yaml"
+vscode "snyk-security.snyk-vulnerability-scanner"
 vscode "timonwong.shellcheck"
 vscode "yzhang.markdown-all-in-one"
