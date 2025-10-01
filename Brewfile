@@ -79,6 +79,7 @@ brew "ncdu"
 brew "neovim"
 brew "networkit"
 brew "nikto"
+brew "nushell"
 brew "pandoc"
 brew "parallel"
 brew "pg_partman"
@@ -136,6 +137,7 @@ mas "Cog", id: 1630499622
 mas "Color Picker", id: 1545870783
 mas "Compressor", id: 424390742
 mas "CotEditor", id: 1024640650
+mas "CrystalFetch", id: 6454431289
 mas "Dashword", id: 1553096775
 mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "eDrawings", id: 1209754386
@@ -145,9 +147,11 @@ mas "Grammarly for Safari", id: 1462114288
 mas "HEIC Converter", id: 1294126402
 mas "iMovie", id: 408981434
 mas "InfoCard", id: 1110195348
+mas "IP Broadcaster", id: 520207162
 mas "IP Scanner Ultra", id: 404167677
 mas "Jump Desktop", id: 524141863
 mas "Keynote", id: 409183694
+mas "Kira for Google Keep", id: 1488575973
 mas "koala", id: 1479881366
 mas "LanguageTool", id: 1534275760
 mas "LanScan", id: 472226235
@@ -175,28 +179,16 @@ mas "WiFiman Desktop", id: 1482391803
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
-vscode "ban.spellright"
+vscode "christian-kohler.path-intellisense"
 vscode "dbaeumer.vscode-eslint"
-vscode "donjayamanne.githistory"
 vscode "eamodio.gitlens"
-vscode "ecmel.vscode-html-css"
-vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
-vscode "github.vscode-pull-request-github"
-vscode "golang.go"
-vscode "html-validate.vscode-html-validate"
-vscode "ms-azuretools.vscode-containers"
-vscode "ms-azuretools.vscode-docker"
+vscode "formulahendry.auto-rename-tag"
+vscode "htmlhint.vscode-htmlhint"
+vscode "mblode.pretty-formatter"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
-vscode "ms-toolsai.jupyter"
-vscode "ms-toolsai.jupyter-keymap"
-vscode "ms-toolsai.jupyter-renderers"
-vscode "ms-toolsai.vscode-jupyter-cell-tags"
-vscode "ms-toolsai.vscode-jupyter-slideshow"
-vscode "redhat.java"
-vscode "redhat.vscode-xml"
-vscode "redhat.vscode-yaml"
+vscode "nishikanta12.live-server-lite"
 vscode "snyk-security.snyk-vulnerability-scanner"
-vscode "timonwong.shellcheck"
-vscode "yzhang.markdown-all-in-one"
+vscode "stylelint.vscode-stylelint"
+vscode "webhint.vscode-webhint"
